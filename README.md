@@ -1,4 +1,4 @@
-# Dashboard Premier League — Groupe 5
+# Dashboard Premier League 
 
 Dashboard Streamlit construit à partir du projet d'Analyse Exploratoire de Données (Premier League 2019-20 à 2023-24).
 
@@ -28,20 +28,5 @@ streamlit run app.py
 Le dashboard s'ouvre sur http://localhost:8501.
 
 Ouvrir d'abord l'URL racine (pas un lien direct vers une sous-page) : c'est `app.py` qui déclare les pages avec `st.navigation`. Si la toute première requête après un démarrage vise une sous-page, Streamlit bascule sur son ancien mode multipage (noms de pages bruts dans la sidebar). Un passage par la racine suffit à rétablir la navigation normale.
-
-## Déployer sur Streamlit Community Cloud
-
-1. Créer un dépôt GitHub (public ou privé) et y pousser ce dossier :
-   ```bash
-   git init
-   git add .
-   git commit -m "Dashboard Premier League"
-   git branch -M main
-   git remote add origin https://github.com/<votre-compte>/dashboard-premier-league.git
-   git push -u origin main
-   ```
-2. Aller sur https://share.streamlit.io, se connecter avec GitHub, cliquer sur **Create app**.
-3. Choisir le dépôt, la branche `main` et le fichier principal `app.py`.
-4. Cliquer sur **Deploy**. L'URL obtenue est de la forme `https://<nom>.streamlit.app`, à coller dans le rendu.
 
 Les CSV sont dans le dépôt, il n'y a donc aucune dépendance réseau au moment du déploiement.

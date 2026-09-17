@@ -17,7 +17,7 @@ dashboard_premier_league/
 ├── requirements.txt
 └── .streamlit/config.toml   # thème
 ```
-
+## Lien vers le dashboard en ligne : https://datavizpl.streamlit.app/
 ## Lancer en local
 
 ```bash

@@ -1,6 +1,6 @@
 # Document de cadrage — Dashboard Premier League
 
-**Groupe 5 · Bachelor Data et IA MD4 · Dashboards & Data Visualisation**
+**MD4 · Dashboards & Data Visualisation**
 
 ## Message clé
 
